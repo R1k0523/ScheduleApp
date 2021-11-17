@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_schedule">
+
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="ru.boringowl.scheduleapp.presentation.view.ScheduleFragment"
+        android:label="Расписание"
+        tools:layout="@layout/schedule_fragment" />
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="ru.boringowl.scheduleapp.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="ru.boringowl.scheduleapp.presentation.view.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/settings_fragment"  />
+</navigation>

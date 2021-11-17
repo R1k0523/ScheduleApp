@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/back_blue_20.xml" value="0.21851851851851853" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/back_blue_left_bottom.xml" value="0.21851851851851853" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/back_primary_20.xml" value="0.21851851851851853" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/ic_calendar_24.xml" value="0.21944444444444444" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/my_ic_owl_sleep_filled.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/pick_day_selector.xml" value="0.12604166666666666" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/pick_day_text_color_selector.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/drawable-v24/textview_shape_bright.xml" value="0.21851851851851853" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/layout/item_lesson.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/layout/schedule_fragment.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/layout/settings_fragment.xml" value="0.20260416666666667" />
+        <entry key="..\:/AndroidProjects/ScheduleApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

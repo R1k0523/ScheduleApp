@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/second_50</color>
+    <color name="colorPrimaryVariant">@color/back_color</color>
+    <color name="colorRadioButton">@color/back_color</color>
+    <color name="colorPrimaryUp">@color/second_50</color>
+    <color name="colorOnPrimary">@color/second_700</color>
+    <color name="colorSecondary">@color/blue_700</color>
+    <color name="colorSecondaryVariant">@color/blue_900</color>
+    <color name="colorOnSecondary">@color/second_50</color>
+    <color name="colorHint">#80273152</color>
+    <color name="appBarColor">@color/second_500</color>
+    <color name="appBarColorLight">#576FA5</color>
+    <color name="appBarColorTransparent">#F2637499</color>
+    <color name="snackColor">@color/blue_50</color>
+
+    <color name="blue_900">#1045a1</color>
+    <color name="blue_700">#1a75d2</color>
+    <color name="blue_700_transparent">#801A75D2</color>
+    <color name="blue_500">#2194f3</color>
+    <color name="blue_200">#90c9f9</color>
+    <color name="blue_50">#e3f2fd</color>
+
+    <color name="second_900">#1B223C</color>
+    <color name="second_700">#273152</color>
+    <color name="second_500">#465d8d</color>
+    <color name="second_200">#a1adc4</color>
+    <color name="back_color">#D4DAE3</color>
+    <color name="second_50">#e8ebf0</color>
+    <color name="red">#f44236</color>
+    <color name="green">#28b252</color>
+    <color name="red_transparent">#99F44236</color>
+    <color name="green_transparent">#9928B252</color>
+    <color name="red_dark">#AF3128</color>
+    <color name="green_dark">#218F43</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#99FFFFFF</color>
+    <color name="dark_color">#081635</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#979797</color>
+    <color name="background">#EBF4FF</color>
+    <color name="blue_dark">#193C86</color>
+    <!--
+    <color name="border">#112D69</color>
+    <color name="blue_bright">#4C70BC</color>
+    <color name="blue_light">#C4D6FD</color>
+    <color name="orange">#F7B500</color>
+-->
+</resources>

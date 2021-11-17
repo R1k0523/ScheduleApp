@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.ScheduleApp">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="backgroundColor">@color/colorPrimaryVariant</item>
+        <item name="background">@color/colorPrimaryVariant</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/AppTheme.TextView</item>
+        <item name="editTextStyle">@style/AppEditText</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:buttonStyle">@style/ButtonStyle.Accept</item>
+        <item name="snackbarStyle">@style/Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/Snackbar.TextView</item>
+    </style>
+
+
+    <style name="AppEditText" parent="@android:style/Widget.EditText">
+        <item name="android:padding">15dp</item>
+
+        <!-- Не работает. -->
+        <item name="drawableTint">@color/colorOnPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="elevation">80dp</item>
+        <item name="android:background">@drawable/back_primary_6</item>
+    </style>
+
+
+    <style name="AppTheme.TextView" parent="AppTheme">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">22dp</item>
+        <item name="elevation">22dp</item>
+        <item name="cardElevation">22dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:shadowColor">@color/colorOnPrimary</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="ButtonStyle.Accept" parent="ButtonStyle">
+        <item name="backgroundTint">@drawable/selector_button_access</item>
+        <item name="android:textColor">@color/colorOnSecondary</item>
+    </style>
+
+    <style name="ButtonStyle.Cancel" parent="ButtonStyle">
+        <item name="backgroundTint">@drawable/selector_button_cancel</item>
+        <item name="android:textColor">@color/second_900</item>
+    </style>
+
+    <style name="ButtonStyle.Alert" parent="ButtonStyle">
+        <item name="backgroundTint">@drawable/selector_button_alert</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ButtonStyle.Success" parent="ButtonStyle.Alert">
+        <item name="backgroundTint">@drawable/selector_button_success</item>
+    </style>
+    <style name="TextViewDark" parent="AppTheme">
+        <item name="android:background">@drawable/back_blue_left_bottom</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="TextViewBright" parent="AppTheme">
+        <item name="android:background">@drawable/textview_shape_bright</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RadioButton" parent="AppTheme">
+        <item name="android:background">@drawable/back_blue_20</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Snackbar" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/snackColor</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">60dp</item>
+    </style>
+
+    <style name="Snackbar.TextView" parent="@style/Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+</resources>
